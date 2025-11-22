@@ -23,7 +23,7 @@ BRICK_H = 8
 BRICK_GAP = 2
 TOP_MARGIN = 16
 
-LIVES = 3
+LIVES = 5
 
 # Colors — simple "monochrome" GameBoy-like palette (greens)
 BG = "#C7F0C7"
@@ -290,4 +290,5 @@ class Breakout:
 if __name__ == "__main__":
     root = tk.Tk()
     game = Breakout(root)
+
     root.mainloop()
